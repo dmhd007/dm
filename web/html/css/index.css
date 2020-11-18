@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E8DED2;
+    height: 100vh;
+    margin:1rem;
+}
+
+.top{
+    position: fixed;
+    top:20px;
+    width:100%;
+}
+
+.top-image{
+    width:5rem;
+}
+
+.navlink{
+    padding: 1rem;
+    background-color: #a3d2ca73;
+    border-radius: 1.3rem;
+    margin: .5rem 1rem;
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+
+a{
+    color: white;
+    margin:1rem;
+    text-decoration: none;
+}
+
+
+.heading{
+    margin:10rem auto 2rem;
+    text-align: center;
+}
+
+h1{
+    color:#056676 ;
+    font-family: monospace;
+    font-size:3rem;
+    margin:1rem auto;
+    
+}
+
+h2{
+    color:rgba(46, 42, 42, 0.253);
+    font-family: cursive;
+}
+
+.bio{
+    background-color:rgba(255, 255, 255, 0.137);
+    border-radius: 1.3rem;
+    text-align: center;
+    margin:3rem 10rem;
+}
+
+.bio-image{
+    border-radius: 50rem;
+    margin:3rem auto;
+    width:15rem;
+}
+
+.pbio{
+    font-family: monospace;
+    line-height: 2;
+    margin:1rem auto 2rem;
+    text-align: left;
+}
+
+
+.image1{
+    display: flex;
+    margin: 1rem auto;
+}
+
+.image11{
+    width:12rem;
+}
+
+.image2{
+    display: flex;
+    margin: 1rem auto;
+}
+
+.image22{
+    width:12rem;
+}
+
+.pimage11{
+    line-height: 2;
+    margin:2rem;
+}
+
+.pimage22{
+    line-height: 2;
+    margin:2rem;
+}
+ 
+footer{
+    background-color:#5eaaa8;
+    margin: 5rem auto 1rem;
+    padding:3rem; 
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.insta{
+    width:50px;
+}
+
+.facebook{
+    width:50px;
+}
+
+.email{
+    width:50px;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
